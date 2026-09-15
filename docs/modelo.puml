@@ -20,7 +20,19 @@ class Exemplar {
   - tombo : String
 }
 
+class Usuario {
+  - matricula : String
+  - nome : String
+}
+
+class Emprestimo {
+  - titulo : String
+  - status : Boolean
+}
+
 Item "1" *-- "0..*" Exemplar : possui
+Usuario "1" *-- "0..*" Emprestimo : possui
+Item "1" *-- "0..*" Emprestimo : possui
 
 note bottom of Item
   Ponto de partida, não modelo pronto.
