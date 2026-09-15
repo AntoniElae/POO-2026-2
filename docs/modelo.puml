@@ -31,14 +31,8 @@ class Emprestimo {
 }
 
 Item "1" *-- "0..*" Exemplar : possui
-Usuario "1" *-- "0..*" Emprestimo : possui
-Item "1" *-- "0..*" Emprestimo : possui
+Exemplar "1" *-- "0..*" Emprestimo : possui
+Emprestimo "1" *-- "0..*" Usuario : possui
 
-note bottom of Item
-  Ponto de partida, não modelo pronto.
-  Decidam: quais entidades existem,
-  quem guarda o quê, quais invariantes
-  cada objeto protege.
-end note
 
 @enduml
