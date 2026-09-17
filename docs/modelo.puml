@@ -14,7 +14,7 @@ hide empty members
 class Item {
   - codigo : String
   - titulo : String
-  - teste: teste
+  - teste: teste1
 }
 
 class Exemplar {
