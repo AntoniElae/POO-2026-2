@@ -104,6 +104,6 @@ O uso é permitido como apoio, desde que declarado em [`DECLARACAO-DE-USO-DE-IA.
 ## Equipe
 
 | Nome | Matrícula | GitHub |
-|---|---|---|
+|Ântoni Êlae|20250138152|AntoniElae|
 | | | |
 | | | |
